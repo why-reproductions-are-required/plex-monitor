@@ -670,13 +670,7 @@ export default defineConfig({
     platform: "node",
     exe: {
       fileName: "plxm",
-      targets: [
-        { platform: "linux", arch: "x64", nodeVersion: "26.1.0" },
-        { platform: "linux", arch: "arm64", nodeVersion: "26.1.0" },
-        { platform: "darwin", arch: "x64", nodeVersion: "26.1.0" },
-        { platform: "darwin", arch: "arm64", nodeVersion: "26.1.0" },
-        { platform: "win", arch: "x64", nodeVersion: "26.1.0" }
-      ]
+      targets: [{ platform: "linux", arch: "x64", nodeVersion: "26.1.0" }]
     }
   }
 });
