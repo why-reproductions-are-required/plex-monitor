@@ -45,11 +45,19 @@
     "@varlock/bumpy": "^1.7.0",
     "msw": "^2.14.6",
     "typescript": "^5.9.3",
-    "vite-plus": "0.2.1"
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1919"
   },
   "resolutions": {
     "vite": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1919",
-    "@voidzero-dev/vite-plus-core": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1919"
+    "@voidzero-dev/vite-plus-core": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1919",
+    "@voidzero-dev/vite-plus-darwin-arm64": "0.2.1",
+    "@voidzero-dev/vite-plus-darwin-x64": "0.2.1",
+    "@voidzero-dev/vite-plus-linux-arm64-gnu": "0.2.1",
+    "@voidzero-dev/vite-plus-linux-arm64-musl": "0.2.1",
+    "@voidzero-dev/vite-plus-linux-x64-gnu": "0.2.1",
+    "@voidzero-dev/vite-plus-linux-x64-musl": "0.2.1",
+    "@voidzero-dev/vite-plus-win32-x64-msvc": "0.2.1",
+    "@voidzero-dev/vite-plus-win32-arm64-msvc": "0.2.1"
   },
   "engines": {
     "node": ">=26.1.0"

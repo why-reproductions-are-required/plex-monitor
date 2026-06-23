@@ -881,7 +881,7 @@ __metadata:
     msw: "npm:^2.14.6"
     typescript: "npm:^5.9.3"
     valibot: "npm:^1.2.0"
-    vite-plus: "npm:0.2.1"
+    vite-plus: "https://pkg.pr.new/voidzero-dev/vite-plus@1919"
   bin:
     plex-monitor: ./src/cli.ts
     plxm: ./src/cli.ts
@@ -5082,9 +5082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plus@npm:0.2.1":
+"vite-plus@https://pkg.pr.new/voidzero-dev/vite-plus@1919":
   version: 0.2.1
-  resolution: "vite-plus@npm:0.2.1"
+  resolution: "vite-plus@https://pkg.pr.new/voidzero-dev/vite-plus@1919"
   dependencies:
     "@oxc-project/types": "npm:=0.136.0"
     "@oxlint/plugins": "npm:=1.68.0"
@@ -5097,15 +5097,15 @@ __metadata:
     "@vitest/snapshot": "npm:4.1.9"
     "@vitest/spy": "npm:4.1.9"
     "@vitest/utils": "npm:4.1.9"
-    "@voidzero-dev/vite-plus-core": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-darwin-arm64": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-darwin-x64": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-linux-arm64-gnu": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-linux-arm64-musl": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-linux-x64-gnu": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-linux-x64-musl": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-win32-arm64-msvc": "npm:0.2.1"
-    "@voidzero-dev/vite-plus-win32-x64-msvc": "npm:0.2.1"
+    "@voidzero-dev/vite-plus-core": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-darwin-arm64": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-arm64@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-darwin-x64": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-x64@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-linux-arm64-gnu": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-gnu@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-linux-arm64-musl": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-musl@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-linux-x64-gnu": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-gnu@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-linux-x64-musl": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-musl@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-win32-arm64-msvc": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-arm64-msvc@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
+    "@voidzero-dev/vite-plus-win32-x64-msvc": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-x64-msvc@44bdb72584f1a2f88fa10d97b28bb0802b6c5039"
     oxfmt: "npm:=0.55.0"
     oxlint: "npm:=1.70.0"
     oxlint-tsgolint: "npm:=0.23.0"
@@ -5136,10 +5136,10 @@ __metadata:
     "@vitest/browser-webdriverio":
       optional: true
   bin:
-    oxfmt: bin/oxfmt
-    oxlint: bin/oxlint
-    vp: bin/vp
-  checksum: 10/b85602e7a34c4f948c10aaa28dd13302c5f3357ed0af7055a87bfc814ea6c24b85fe8a74272fecfaddff7e112a75c4c3af3ed7f4097e0e0c5feea1145084fd12
+    oxfmt: ./bin/oxfmt
+    oxlint: ./bin/oxlint
+    vp: ./bin/vp
+  checksum: 10/64033657b05fb19fd44f29d9322edd38736abd1f57699f57638890035c20dc2cfe46f7d4dbb1fa5f914a61b8789d660dda39a1b65263b1b8de5b4a3e680c6183
   languageName: node
   linkType: hard
 
