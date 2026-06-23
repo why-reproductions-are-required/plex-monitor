@@ -41,15 +41,14 @@
   },
   "devDependencies": {
     "@saeris/eslint-config": "^3.2.4",
-    "@tsdown/exe": "patch:@tsdown/exe@npm%3A0.22.0#~/.yarn/patches/@tsdown-exe-npm-0.22.0-7094487e5f.patch",
     "@types/node": "^25.2.3",
     "@varlock/bumpy": "^1.7.0",
     "msw": "^2.14.6",
     "typescript": "^5.9.3",
-    "vite-plus": "latest"
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1919"
   },
   "resolutions": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vite": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1919",
     "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   },
   "engines": {
